@@ -370,14 +370,14 @@
 			);	
 			// Preloader
 			$(".projects .element").preloader();	
-
-
-            // add sorting.js here instead of directly in the js code before document.ready:
-            // <script type="text/javascript" src="js/sorting.js"></scr ipt>
-            $('.hover_img:last img').load(function() {
-                $('head').append('<script type="text/javascript" src="js/sorting.js"></' + 'script>');
-            });
 		});
+
+
+        // add sorting.js here instead of directly in the js code before document.ready:
+        // <script type="text/javascript" src="js/sorting.js"></scr ipt>
+        $('.hover_img:last img').load(function() {
+            $('head').append('<script type="text/javascript" src="js/sorting.js"></' + 'script>');
+        });
 	</script>
     <script src="js/application.js"></script>
 </body>
