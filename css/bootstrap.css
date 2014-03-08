@@ -129,6 +129,14 @@ textarea {
   *zoom: 1;
 }
 
+.clearfix2 {
+  background-color: #009933;
+  padding-bottom: 10px;
+  width:95%;
+  margin:auto;
+  *zoom: 1;
+}
+
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -139,6 +147,18 @@ textarea {
 .clearfix:after {
   clear: both;
 }
+
+.clearfix2:before,
+.clearfix2:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix2:after {
+  clear: both;
+}
+
 
 .hide-text {
   font: 0/0 a;

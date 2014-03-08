@@ -75,11 +75,13 @@ img {
 /*nav*/
 #main_menu {
 	position: relative;
-	float:right;
+	
+	/*float:right; */
 }
 .menu_wrap {
   padding-top: 10px;
-  float:right;
+  
+  /*float:right; */
 }
 .menu_wrap .nav li {
   margin: 0;
@@ -88,7 +90,7 @@ img {
   zoom: 1;
 }
 .menu_wrap .nav > li {
-  padding: 0 0 0 25px;
+  padding: 0 0 0 35px;
   display:inline-block;
 }
 .menu_wrap .nav > li:first-child {
@@ -97,10 +99,12 @@ img {
 	display: none;
 	font-family:Arial;
 	font-size:12px;
+	background-color: #009933;
+	color: #ffffff;
 }
 .menu_wrap .nav li a {
   line-height:18px;
-  color: #313131;
+  color: #aaaaaa;
   font-family: 'Open Sans', sans-serif;
   font-weight:800;
   font-size:14px;
@@ -150,7 +154,7 @@ img {
   zoom: 1;
   z-index: 25;
   background:#fff;
-  border-top:4px #d00b01 solid;
+  border-top:4px #009933 solid;
   padding: 14px 0 7px 0;
   margin: 0;
 }
@@ -522,7 +526,7 @@ ul.tweets li {
 }
 .author {
 	padding-top:7px;
-	color:#d00b01;
+	color:#009933;
 	font-style:italic;
 }
 .author a {
@@ -530,9 +534,9 @@ ul.tweets li {
 	font-style:italic;
 }
 .testimonials_arrow {
-	width:22px;
-	height:22px;
-	background:url(../img/testimonials_arrow.png) no-repeat left top;
+	width:32px;
+	height:32px;
+	background:url(../img/comment32.png) no-repeat left top;
 	float:left;
 	margin:0 8px 0 0;
 	display:block;
