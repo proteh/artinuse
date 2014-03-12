@@ -91,7 +91,15 @@
   .hidden-phone {
     display: none !important;
   }
-   
+
+  nav#main_menu ul {
+    display: none;
+  }
+
+  nav#main_menu select {
+    display: inline-block;
+    width: 100% !important;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1044,12 +1052,6 @@
     
 	#main_menu { float:none;
 	}
-	nav#main_menu ul {display: none;
-	}
-	nav#main_menu select {
-		display: inline-block;
-		width: 100% !important;
-	}
 	nav#main_menu {
 		position: relative;
 		right: 0;
@@ -1091,12 +1093,64 @@
 
 
 
+/* Proteh custom CSS (some of it is changed in the above code): */
+.projects .element {
+  min-height: 230px;
+}
+
+.wrap {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 
+.wrap .navbar.clearfix2 {
+  padding-bottom: 0px;
+}
 
+@media (min-width: 768px) {
+  .wrap .navbar.clearfix2 {
+    line-height: 30px;
+  }
+}
 
+.wrap .navbar .container {
+  width: 95%;
+}
 
+.wrap .navbar .container .menu_wrap {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: right;
+}
 
+.wrap .navbar .container .menu_wrap .nav {
+  float: none;
+  left: auto;
+  display: inline-block;
+  *display:inline; zoom: 1;
+}
 
+.header .wrap .container .row {
+  margin: auto;
+}
 
+.header .wrap .container .row .logo {
+  float: left;
+}
+.header .wrap .container .row .head1_menu {
+  float: right;
+}
+
+.header .wrap .container .row .head1_menu li {
+  display: block;
+}
+.header .wrap .container .row .head1_menu li.contact_phone a {
+  padding-left: 20px;
+  background: transparent url("../img/phone16.png") no-repeat left 2px;
+}
+.header .wrap .container .row .head1_menu li.contact_email a {
+  padding-left: 20px;
+  background: transparent url("../img/mail16.png") no-repeat left 2px;
+}
 
