@@ -12,7 +12,7 @@ body { overflow-x:hidden;
 .header {
 	padding:36px 0 21px 0;
 	background:#fff;
-	/*border-top:5px #d00b01 solid;*/
+	border-top:5px #009933 solid;
 }
 .fleft {float:left;
 }
@@ -104,7 +104,7 @@ img {
 }
 .menu_wrap .nav li a {
   line-height:18px;
-  color: #aaaaaa;
+  color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight:800;
   font-size:14px;
@@ -372,14 +372,14 @@ h2.upper {
 	text-transform:uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
-	color:#d00b01;
+	color:#009933;
 }
 .post_carousel .title_t a, .news_t a {
 	font-size:17px;
 	text-transform:uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
-	color:#d00b01;
+	color:#009933;
 }
 .post_carousel .title_t a:hover, .news_t a:hover {
 	text-decoration:none;
@@ -402,11 +402,11 @@ h2.upper {
 } 
 .arrow_link {
 	font-style:italic;
-	color:#d00b01;
+	color:#009933;
 }
 .arrow_link:hover {
 	text-decoration:none;
-	color:#1e1e1e;	
+	color:#009933;	
 }
 .block:last-child {padding-bottom:0;
 }
@@ -468,7 +468,7 @@ h2.upper {
 	line-height:16px;	
 }
 #footer a {
-	color:#d00b01;
+	color:#009933;
 	font-style:italic;	
 }
 #footer h2.title {
@@ -598,6 +598,37 @@ ul.tweets li {
 	border:0 !important;
 	margin:0 !important;
 }
+
+/*dodato radi telefona i maila u hederu desno*/
+.head1_menu {text-align:right;
+}
+.head1_menu li {
+	display:inline-block;
+	padding:0 0px 0  0!important;
+	border:0 !important;
+	margin:0 !important;
+}
+.head1_menu li:last-child {padding:0 !important;
+}
+.head1_menu li a {
+	
+	color:#444444 !important;
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	font-style:normal !important;
+}
+.foot_menu li:last-child {padding:0 !important;
+}
+/*kraj dodatog elementa*/
+
+
+
+
+
+
+
+
 .foot_menu li:last-child {padding:0 !important;
 }
 .foot_menu li a {
