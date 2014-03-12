@@ -1125,6 +1125,7 @@
 }
 
 .wrap .navbar .container .menu_wrap .nav {
+  margin-right: 0;
   float: none;
   left: auto;
   display: inline-block;
