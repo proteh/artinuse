@@ -1115,8 +1115,7 @@
 }
 
 .wrap .navbar .container .menu_wrap {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 0 5px;
   text-align: right;
 }
 
@@ -1126,6 +1125,12 @@
   left: auto;
   display: inline-block;
   *display:inline; zoom: 1;
+  vertical-align: middle;
+}
+
+.wrap .navbar .container .menu_wrap select {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .header .wrap .container .row {
@@ -1137,6 +1142,11 @@
 }
 .header .wrap .container .row .head1_menu {
   float: right;
+}
+
+.header .wrap .container .row .head1_menu ul {
+  list-style: none;
+  margin-right: 5px;
 }
 
 .header .wrap .container .row .head1_menu li {
