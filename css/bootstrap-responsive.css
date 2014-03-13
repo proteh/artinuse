@@ -1181,7 +1181,7 @@
 }
 @media (min-width: 768px) {
   .header .wrap .container .row .head1_menu .header_menu {
-    font-size: 16px;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     border: 0;
