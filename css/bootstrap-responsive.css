@@ -1153,7 +1153,7 @@
   display: block;
 }
 .header .wrap .container .row .head1_menu li.contact_phone a {
-  padding-left: 20px;
+  padding-left: 40px;
   background: transparent url("../img/phone16.png") no-repeat left 2px;
 }
 .header .wrap .container .row .head1_menu li.contact_email a {
