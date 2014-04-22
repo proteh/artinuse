@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /artinuse_old_proteh
+
+Sitemap: http://www.artinuse.com/sitemap.xml

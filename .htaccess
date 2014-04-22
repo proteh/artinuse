@@ -1,0 +1,19 @@
+ErrorDocument 404 /404.html
+
+Redirect 301 /exterior.php http://www.artinuse.com/exterior.html
+Redirect 301 /about_us.php http://www.artinuse.com/about.html
+Redirect 301 /interior.php http://www.artinuse.com/interior.html
+Redirect 301 /commercial.php http://www.artinuse.com/index.html
+Redirect 301 /contact.php http://www.artinuse.com/contacts.html
+Redirect 301 /faq.php http://www.artinuse.com/faq.html
+Redirect 301 /process.php http://www.artinuse.com/index.html
+Redirect 301 /vases.php http://www.artinuse.com/index.html
+Redirect 301 /residential.php http://www.artinuse.com/index.html
+Redirect 301 /hardscape.php http://www.artinuse.com/index.html
+Redirect 301 /architectural_sculpture.php http://www.artinuse.com/index.html
+Redirect 301 /content.php http://www.artinuse.com/index.html
+Redirect 301 /header.php http://www.artinuse.com/index.html
+Redirect 301 /footer.php http://www.artinuse.com/index.html
+Redirect 301 /search.php http://www.artinuse.com/index.html
+Redirect 301 /thanks.php http://www.artinuse.com/index.html
+Redirect 301 /portfolio.php http://www.artinuse.com/index.html

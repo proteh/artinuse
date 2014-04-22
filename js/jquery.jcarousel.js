@@ -162,7 +162,14 @@
                 wh += self.dimension(this, di);
             });
 
-            this.list.css(this.wh, (wh + 100) + 'px');
+/*
+zbog greške u prikazu u više redova gornji je zamenjen donjim redom
+ this.list.css(this.wh, (wh + 100) + 'px');
+ this.list.css(this.wh, (wh + 100 + 1000) + 'px');
+*/ 
+
+
+            this.list.css(this.wh, (wh + 100 + 1200) + 'px');
 
             // Only set if not explicitly passed as option
             if (!o || o.size === undefined) {
